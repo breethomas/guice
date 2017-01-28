@@ -1,0 +1,87 @@
+.grid {
+  margin: 80px 0;
+}
+
+.card {
+  display: inline-block;
+  float: left;
+  width: 100%;
+  min-height: 300px;
+  max-height: 450px;
+}
+
+.card p {
+  margin-top: 20px;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.cirrus {
+  background: url(/images/cmd.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.sitter {
+  background: url(/images/sitter.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.forelinx {
+  background: url(/images/forelinx.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.foraker {
+  background: url(/images/foraker.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.t30 {
+  background: url(/images/t30.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.lap {
+  background: url(/images/lap.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.amhealth {
+  background: url(/images/amhealth.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media(min-width: 37.5em) {
+  .card {
+    width: 50%;
+  }
+}
+
+@media(min-width: 56.25em) {
+  .card {
+    width: 33.3333%;
+  }
+}
+
+@media(min-width: 75em) {
+  .card {
+    width: 25%;
+  }
+}
+
+// @media(min-width: 112.5em) {
+//   .grid {
+//     max-width: 1800px;
+//     margin: 40px auto;
+//   }
+//   .card {
+//     width: 25%;
+//   }
+// }

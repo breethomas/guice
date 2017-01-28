@@ -1,0 +1,28 @@
+.pagination-bar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.service-tag {
+  display: inline-block;
+  padding: 10px;
+  background-color: #000;
+  border-radius: 2px;
+  span {
+    color: #fff;
+  }
+  svg {
+    width: 18px;
+    height: auto;
+    margin-right: 10px;
+    fill: #fff;
+    vertical-align: middle;
+  }
+  text-transform: uppercase;
+}
+
+.work-hero {
+  border: 1px solid magenta;
+  margin-bottom: 100px;
+}

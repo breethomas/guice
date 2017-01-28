@@ -1,0 +1,48 @@
+header {
+  border: 1px solid magenta;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 30px 0;
+  background-color: #fff;
+  opacity: 0.8;
+}
+
+.logo {
+  width: 75px;
+  height: 75px;
+  background: url(/images/logo.svg) no-repeat center;
+  background-size: cover;
+}
+
+.nav a {
+  display: inline-block;
+  margin-left: 10px;
+  padding-bottom: 5px;
+  &:hover {
+    border-bottom: 1px solid;
+  }
+}
+
+.hero {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.footer {
+  border: 1px solid magenta;
+  padding: 100px 0;
+}
+
+.copyright {
+  padding: 20px 10px;
+  background-color: #000;
+  color: #fff;
+}
+
+
+@media(min-width: 50em) {
+}

@@ -1,0 +1,10 @@
+html
+  head
+    title Guiceworks
+    link rel='stylesheet' type='text/css' href='stylesheets/site.css'
+    link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300' rel='stylesheet'
+  body
+    = partial 'layouts/header'
+    .main
+      = yield
+    = partial 'layouts/footer'

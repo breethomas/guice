@@ -1,0 +1,37 @@
+body {
+  font-family: 'RNSCamelia-Bold', sans-serif;
+  font-size: 16px;
+}
+
+.main {
+  padding-top: 135px;
+}
+
+.content-max {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.icon {
+  width: 30px;
+  height: auto;
+}
+
+.client-logo {
+  max-width: 200px;
+  height: auto;
+}
+
+.clearfix:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+
+@media(min-width: 27em) {
+  .content-max {
+    padding: 0;
+  }
+}

@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'RNSCamelia-Bold';
+  src: url('/fonts/RNSCamelia-Bold.otf') format('opentype');
+}
+
+h1, h2, p {
+  margin: 0;
+}
+
+p {
+  color: #808080;
+}
+
+h1, h2, h3 {
+  font-size: 40px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+h1, p {
+  line-height: 1.2;
+}
+
+h3 {
+  margin: 30px 0;
+  line-height: 1;
+}
