@@ -1,0 +1,36 @@
+header {
+  width: 100%;
+  max-width: 1400px;
+  position: fixed;
+  background-color: #fff;
+  opacity: 0.8;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+.logo {
+  float: left;
+  width: 75px;
+  height: 75px;
+  background: url(/images/logo.svg) no-repeat center;
+  background-size: cover;
+}
+
+.nav-links {
+  float: right;
+  min-height: 40px;
+}
+
+.nav-links a {
+  display: inline-block;
+  margin-left: 10px;
+  padding-bottom: 5px;
+  &:hover {
+    border-bottom: 1px solid;
+  }
+}

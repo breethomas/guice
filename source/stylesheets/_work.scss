@@ -1,16 +1,33 @@
+.services,
+.creative {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+.work-hero {
+  margin-bottom: 100px;
+  max-width: 1400px;
+  padding: 175px 20px 10px 20px;
+}
+
 .pagination-bar {
   display: flex;
   justify-content: space-between;
   margin-bottom: 60px;
 }
 
+.service-component {
+  margin-top: 60px;
+}
+
 .service-tag {
   display: inline-block;
-  padding: 10px;
+  padding: 10px 20px;
   background-color: #000;
   border-radius: 2px;
   span {
     color: #fff;
+    font-family: 'Helvetica-Md', sans-serif;
+    font-size: 12px;
   }
   svg {
     width: 18px;
@@ -22,7 +39,10 @@
   text-transform: uppercase;
 }
 
-.work-hero {
-  border: 1px solid magenta;
-  margin-bottom: 100px;
+.work-example {
+  margin-top: 40px;
+}
+
+.work-description {
+  margin-top: 20px;
 }
