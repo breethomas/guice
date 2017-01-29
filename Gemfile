@@ -8,6 +8,10 @@ gem 'wdm', '~> 0.1.0', platforms: [:mswin, :mingw]
 # Windows does not come with time zone data
 gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
 
+# Config server and static heroku stuff
+gem 'puma'
+gem 'rack-contrib'
+
 # Middleman Gems
 gem 'middleman-deploy', '~> 2.0.0.pre.alpha'
 gem 'middleman', '>= 4.0.0'
