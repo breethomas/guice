@@ -2,16 +2,20 @@
   padding: 10% 20px;
 }
 
-.contact p,
-.contact a {
+.contact-details {
+  margin-top: 15px;
+}
+
+.contact-details p,
+.contact-details a {
   display: inline-block;
 }
 
-.contact p {
+.contact-details p {
   margin-right: 4px;
 }
 
-.contact a {
+.contact-details a {
   color: #000;
   font-weight: 400;
 }
