@@ -1,6 +1,39 @@
 footer {
+  min-height: 20%;
+}
+
+.contact {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 40px 0 60px 0;
+}
+
+.contact-details {
+  margin-top: 15px;
+}
+
+.contact-details p,
+.contact-details a {
+  display: inline-block;
+}
+
+.contact-details p {
+  margin-right: 4px;
+}
+
+.contact-details a {
+  color: #000;
+  font-weight: 400;
+}
+
+.copyright {
   padding: 20px 0;
   background-color: #000;
   color: #fff;
   font-size: 12px;
+}
+
+.content-max {
+  max-width: 1400px;
+  margin: 0 auto;
 }

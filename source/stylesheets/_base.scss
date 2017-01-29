@@ -1,6 +1,6 @@
 html, body {
   width: 100%;
-  height: 100%;
+  min-height: 100%;
 }
 
 body {
@@ -16,16 +16,11 @@ main {
   width: 100%;
   max-width: 1400px;
   margin: 0 auto;
+  min-height: 80%;
 }
 
 img {
   width: 100%;
-}
-
-.content-max {
-  max-width: 1400px;
-  margin: 0 auto;
-  padding: 0 20px;
 }
 
 .icon {
@@ -35,7 +30,7 @@ img {
 
 .client-logo {
   max-width: 200px;
-  height: auto;
+  min-height: auto;
 }
 
 .clearfix:after {
