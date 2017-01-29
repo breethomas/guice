@@ -18,7 +18,6 @@ page '/*.txt', layout: false
 set :images_dir, 'images'
 
 # General configuration
-activate :sprockets
 
 # Reload the browser automatically whenever files change
 configure :development do
