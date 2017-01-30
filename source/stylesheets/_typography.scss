@@ -15,7 +15,7 @@
 
 h1, h2, h3 {
   font-family: 'RNSCamelia-Bold';
-  font-size: 60px;
+  font-size: 40px;
 }
 
 h1, h2, p {
@@ -42,4 +42,11 @@ h3 {
 
 .card-title {
   font-family: 'Helvetica-Md', sans-serif;
+}
+
+
+@media(min-width: 31.25em) {
+  h1, h2, h3 {
+    font-size: 60px;
+  }
 }
